@@ -1,4 +1,4 @@
-# Python-Lab5-ConditionalStatements
+# Python-Lab1-ConditionalStatements
 
 
 ## This repository contains 3 projects, all which can be accessed from main.py.
