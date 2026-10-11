@@ -7,16 +7,19 @@ while True:
     try: 
         ans = int(input())
     except ValueError:
+        print("Please enter a number.")
         continue
     if ans == 1:
         bmi.run()
-    if ans == 2:
+    elif ans == 2:
         zodiac.run()
-    if ans == 3:
+    elif ans == 3:
         birthday.run()
-    if ans == 4:
+    elif ans == 4:
         print("Thanks for checking my assignments out. Goodbye!")
         break
+    else:
+        print("Please insert a valid number")
 
     
     
